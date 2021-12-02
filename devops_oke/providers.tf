@@ -33,6 +33,6 @@ provider "oci" {
 provider "oci" {
   alias        = "current_region"
   tenancy_ocid = var.tenancy_ocid
-  region       = var.region
+  region       = var.region 
 }
 
